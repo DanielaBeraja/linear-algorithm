@@ -5,12 +5,12 @@ public class ExerciseOne {
         int height, base;
         int area;
 
-        Scanner keyboard= new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         System.out.println("Ingrese la altura del triángulo: ");
-        height= keyboard.nextInt();
+        height = keyboard.nextInt();
         System.out.println("Ingrese la base del triángulo: ");
-        base= keyboard.nextInt();
-        area= (base * height)/2;
-        System.out.println("El area del triángulo es: "+ area);
+        base = keyboard.nextInt();
+        area = (base * height) / 2;
+        System.out.println("El area del triángulo es: " + area);
     }
 }

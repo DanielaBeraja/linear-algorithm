@@ -5,13 +5,13 @@ public class ExerciseFour {
         int horasTotales;
         double precioPorHora, cobroTotal;
 
-        Scanner keyboard= new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         System.out.println("ESTACIONAMIENTO VLADI CAR: Ingrese el valor del precio por hora: ");
-        precioPorHora= keyboard.nextDouble();
+        precioPorHora = keyboard.nextDouble();
         System.out.println("Ingrese la cantidad de horas totales: ");
-        horasTotales= keyboard.nextInt();
-        cobroTotal= precioPorHora*horasTotales;
-        System.out.println("El cobro que debe aplicarse al cliente es: $"+ cobroTotal);
+        horasTotales = keyboard.nextInt();
+        cobroTotal = precioPorHora * horasTotales;
+        System.out.println("El cobro que debe aplicarse al cliente es: $" + cobroTotal);
 
     }
 }
